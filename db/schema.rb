@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 2020_12_11_204614) do
 
   create_table "cocktails", force: :cascade do |t|
     t.string "name"
+    t.string "image_url"
     t.text "instructions", default: [], array: true
     t.string "recommended_glass"
     t.string "recommended_ice"
