@@ -52,7 +52,7 @@ ActiveRecord::Schema.define(version: 2020_12_11_204614) do
     t.string "name"
     t.string "category"
     t.string "image_url"
-    t.boolean "running_low"
+    t.string "running_low", default: "No"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
