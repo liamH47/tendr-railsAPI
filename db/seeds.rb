@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 # CocktailIngredient.destroy_all
-# UserIngredient.destroy_all
+UserIngredient.destroy_all
 # User.destroy_all
 # Ingredient.destroy_all
 # Cocktail.destroy_all
@@ -55,38 +55,38 @@
 #     garnish: "nah"
 #     )    
 
-CocktailIngredient.create!(
-    ingredient_id: 4,
-    cocktail_id: 4,
-    name: "Bourbon",
-    category: "spirit",
-    image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
-    measurement: "2oz"
+# CocktailIngredient.create!(
+#     ingredient_id: 4,
+#     cocktail_id: 4,
+#     name: "Bourbon",
+#     category: "spirit",
+#     image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
+#     measurement: "2oz"
 
-)
+# )
 
-CocktailIngredient.create!(
-    ingredient_id: 4,
-    cocktail_id: 3,
-    name: "Bourbon",
-    category: "spirit",
-    image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
-    measurement: "2oz"
+# CocktailIngredient.create!(
+#     ingredient_id: 4,
+#     cocktail_id: 3,
+#     name: "Bourbon",
+#     category: "spirit",
+#     image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
+#     measurement: "2oz"
 
-)
-UserIngredient.create!(
-    ingredient_id: 3,
-    user_id: 2,
-    name: "White rum",
-    category: "spirit",
-    image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ02-7PvD9VREpBCNSIKDzx75PvPhtIjzqz1w&usqp=CAU",
-    running_low: false
-)
-UserIngredient.create!(
-    ingredient_id: 4,
-    user_id: 2,
-    name: "Bourbon",
-    category: "spirit",
-    image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
-    running_low: false
-)
+# )
+# UserIngredient.create!(
+#     ingredient_id: 3,
+#     user_id: 2,
+#     name: "White rum",
+#     category: "spirit",
+#     image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ02-7PvD9VREpBCNSIKDzx75PvPhtIjzqz1w&usqp=CAU",
+#     running_low: false
+# )
+# UserIngredient.create!(
+#     ingredient_id: 4,
+#     user_id: 2,
+#     name: "Bourbon",
+#     category: "spirit",
+#     image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
+#     running_low: false
+# )

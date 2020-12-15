@@ -6,7 +6,7 @@ class CreateUserIngredients < ActiveRecord::Migration[6.0]
       t.string :name
       t.string :category
       t.string :image_url
-      t.boolean :running_low
+      t.string :running_low, default: 'No'
       t.timestamps
     end
   end
