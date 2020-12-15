@@ -15,6 +15,12 @@ class Api::V1::UserIngredientsController < ApplicationController
         render json: @user_ingredient
     end
 
+    def update
+        @user_ingredient = UserIngredient.find(params[:id])
+        @user_card.update(user_ingredient_params)
+        render json: @user_ingredient
+    end
+
     def destroy 
         @user_ingredient = UserIngredient.find(params[:id])
         @user_ingredient.destroy
