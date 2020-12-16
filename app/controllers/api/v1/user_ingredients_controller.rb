@@ -15,15 +15,15 @@ class Api::V1::UserIngredientsController < ApplicationController
         render json: @user_ingredient
     end
 
-    def update
-        @user_ingredient = UserIngredient.find(params[:id])
-        @user_card.update(user_ingredient_params)
-        render json: @user_ingredient
-    end
-
     def destroy 
         @user_ingredient = UserIngredient.find(params[:id])
         @user_ingredient.destroy
+    end
+
+    def update
+        @user_ingredient = UserIngredient.find(params[:id])
+        @user_ingredient.update(user_ingredient_params)
+        render json: @user_ingredient
     end
 
     private
@@ -31,4 +31,5 @@ class Api::V1::UserIngredientsController < ApplicationController
     def user_ingredient_params
         params.require(:user_ingredient).permit(:ingredient_id, :user_id, :name, :category, :image_url, :running_low)
     end
+
 end
