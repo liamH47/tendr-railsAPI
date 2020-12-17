@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 # CocktailIngredient.destroy_all
-UserIngredient.destroy_all
+# UserIngredient.destroy_all
 # User.destroy_all
 # Ingredient.destroy_all
 # Cocktail.destroy_all
@@ -37,7 +37,7 @@ UserIngredient.destroy_all
 
 #     Cocktail.create!(
 #         name: "Old Fashioned",
-#         image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
+#         image_url: "https://www.liquor.com/thmb/f_Fv27Y9k7zIofk_E6rhz37BpWQ=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__05__08113350__bourbon-old-fashioned-720x720-recipe-ade6f7780c304999be3577e565c9bcdd.jpg",
 #         instructions: ["measure", "shake", "strain"],
 #         recommended_glass: "double rocks",
 #         recommended_ice: "crushed",
@@ -47,7 +47,7 @@ UserIngredient.destroy_all
 
 # Cocktail.create!(
 #     name: "Whiskey Sour",
-#     image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
+#     image_url: "https://dailyappetite.com/wp-content/uploads/2020/03/Bourbon-Whiskey-Sour-2.jpg",
 #     instructions: ["measure", "shake","strain"],
 #     recommended_glass: "double rocks",
 #     recommended_ice: "crushed",
@@ -55,25 +55,25 @@ UserIngredient.destroy_all
 #     garnish: "nah"
 #     )    
 
-# CocktailIngredient.create!(
-#     ingredient_id: 4,
-#     cocktail_id: 4,
-#     name: "Bourbon",
-#     category: "spirit",
-#     image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
-#     measurement: "2oz"
+CocktailIngredient.create!(
+    ingredient_id: 4,
+    cocktail_id: 5,
+    name: "Bourbon",
+    category: "spirit",
+    image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
+    measurement: "2oz"
 
-# )
+)
 
-# CocktailIngredient.create!(
-#     ingredient_id: 4,
-#     cocktail_id: 3,
-#     name: "Bourbon",
-#     category: "spirit",
-#     image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
-#     measurement: "2oz"
+CocktailIngredient.create!(
+    ingredient_id: 4,
+    cocktail_id: 6,
+    name: "Bourbon",
+    category: "spirit",
+    image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
+    measurement: "2oz"
 
-# )
+)
 # UserIngredient.create!(
 #     ingredient_id: 3,
 #     user_id: 2,
