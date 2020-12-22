@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 2020_12_11_204614) do
     t.string "name"
     t.string "category"
     t.string "image_url"
+    t.float "quantity"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -52,6 +53,7 @@ ActiveRecord::Schema.define(version: 2020_12_11_204614) do
     t.string "name"
     t.string "category"
     t.string "image_url"
+    t.float "quantity"
     t.boolean "running_low"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
