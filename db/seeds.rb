@@ -22,17 +22,17 @@
 #     name: "White rum",
 #     category: "spirit",
 #     image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ02-7PvD9VREpBCNSIKDzx75PvPhtIjzqz1w&usqp=CAU",
-
+#     quantity: 34.0
 # )
 
 # bourbon = Ingredient.create!(
 #     name: "Bourbon",
 #     category: "spirit",
-#     image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg"
+#     image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
+#     quantity: 34.0
 # )
 
 
-# # bourbon_array = ["mint julep", "whiskey sour", "old fashioned", "iron ranger"]
 
 
 #     Cocktail.create!(
@@ -56,8 +56,8 @@
 #     )    
 
 CocktailIngredient.create!(
-    ingredient_id: 4,
-    cocktail_id: 5,
+    ingredient_id: 2,
+    cocktail_id: 1,
     name: "Bourbon",
     category: "spirit",
     image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
@@ -66,8 +66,8 @@ CocktailIngredient.create!(
 )
 
 CocktailIngredient.create!(
-    ingredient_id: 4,
-    cocktail_id: 6,
+    ingredient_id: 2,
+    cocktail_id: 2,
     name: "Bourbon",
     category: "spirit",
     image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
