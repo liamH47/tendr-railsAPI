@@ -3,6 +3,7 @@ class CreateCocktails < ActiveRecord::Migration[6.0]
     create_table :cocktails do |t|
       t.string :name
       t.string :image_url
+      t.jsonb :cocktail_ingredients
       t.text :instructions, array: true, default: []
       t.string :recommended_glass
       t.string :recommended_ice

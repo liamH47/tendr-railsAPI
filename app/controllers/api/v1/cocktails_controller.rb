@@ -10,4 +10,10 @@ class Api::V1::CocktailsController < ApplicationController
         render json: @cocktails
     end
 
+
+    private
+
+    def cocktail_params
+        params.require(:cocktail).permit!
+    end
 end

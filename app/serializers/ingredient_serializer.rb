@@ -1,7 +1,6 @@
 class IngredientSerializer < ActiveModel::Serializer
-  attributes :id, :name, :category, :image_url, :quantity
+  attributes :id, :name, :category, :image_url, :quantity, :unit
   has_many :user_ingredients
   has_many :users, through: :user_ingredients
-  has_many :cocktail_ingredients
-  has_many :cocktails, through: :cocktail_ingredients
+
 end
