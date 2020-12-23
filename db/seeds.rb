@@ -137,105 +137,21 @@
 #     unit: "oz"
 # )
 
+falernum = Ingredient.create!(
+    name: "Velvet Falernum",
+    category: "Liqueur",
+    image_url: "https://products2.imgix.drizly.com/ci-velvet-falernum-870c57361ece01e6.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+    quantity: 34,
+    unit: "oz"
+)
 
-
-
-
-
-    # Cocktail.create!(
-    #     name: "Old Fashioned",
-    #     image_url: "https://www.liquor.com/thmb/f_Fv27Y9k7zIofk_E6rhz37BpWQ=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__05__08113350__bourbon-old-fashioned-720x720-recipe-ade6f7780c304999be3577e565c9bcdd.jpg",
-    #     instructions: ["measure", "shake", "strain"],
-    #     recommended_glass: "double rocks",
-    #     recommended_ice: "crushed",
-    #     category: "strong",
-    #     garnish: "orange twist"
-    # )
-
-# Cocktail.create!(
-#     name: "Whiskey Sour",
-#     image_url: "https://dailyappetite.com/wp-content/uploads/2020/03/Bourbon-Whiskey-Sour-2.jpg",
-#     instructions: ["measure", "shake","strain"],
-#     recommended_glass: "double rocks",
-#     recommended_ice: "crushed",
-#     category: "strong",
-#     garnish: "nah"
-#     )    
-# old fashioned ings
-# CocktailIngredient.create!(
-#     ingredient_id: 2,
-#     cocktail_id: 1,
-#     quantity: 2.25,
-#     unit: "oz"
-# )
-
-# CocktailIngredient.create!(
-#     ingredient_id: 3,
-#     cocktail_id: 1,
-#     quantity: 4,
-#     unit: "dashes"
-# )
-
-# CocktailIngredient.create!(
-#     ingredient_id: 4,
-#     cocktail_id: 1,
-#     quantity: 0.5,
-#     unit: "oz"
-# )
-# # whiskey sour ings
-# CocktailIngredient.create!(
-#     ingredient_id: 8,
-#     cocktail_id: 3,
-#     quantity: 1,
-#     unit: "egg white"
-# )
-
-# CocktailIngredient.create!(
-#     ingredient_id: 5,
-#     cocktail_id: 3,
-#     quantity: 1,
-#     unit: "oz"
-# )
-
-# CocktailIngredient.create!(
-#     ingredient_id: 4,
-#     cocktail_id: 3,
-#     quantity: 0.75,
-#     unit: "oz"
-# )
-# CocktailIngredient.create!(
-#     ingredient_id: 2,
-#     cocktail_id: 3,
-#     quantity: 2,
-#     unit: "oz"
-# )
-
-# CocktailIngredient.create!(
-#     ingredient_id: 2,
-#     cocktail_id: 2,
-#     name: "Bourbon",
-#     category: "spirit",
-#     image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
-#     measurement: "2oz"
-
-# )
-# UserIngredient.create!(
-#     ingredient_id: 3,
-#     user_id: 2,
-#     name: "White rum",
-#     category: "spirit",
-#     image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ02-7PvD9VREpBCNSIKDzx75PvPhtIjzqz1w&usqp=CAU",
-#     running_low: false
-# )
-# UserIngredient.create!(
-#     ingredient_id: 4,
-#     user_id: 2,
-#     name: "Bourbon",
-#     category: "spirit",
-#     image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/9/190665.jpg",
-#     running_low: false
-# )
-
+wray = Ingredient.create!(
+    name: "Wray and Nephew White Overproof Rum",
+    category: "Spirit",
+    image_url: "https://products3.imgix.drizly.com/ci-wray-nephew-white-overproof-rum-74e207c37759a35d.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+    quantity: 25,
+    unit: "oz"
+)
 # Cocktail.create!(
 #     name: "Old Fashioned",
 #     image_url: "https://www.liquor.com/thmb/f_Fv27Y9k7zIofk_E6rhz37BpWQ=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__05__08113350__bourbon-old-fashioned-720x720-recipe-ade6f7780c304999be3577e565c9bcdd.jpg",
@@ -295,34 +211,98 @@
 #     garnish: "orange twist"
 # )
 
+# Cocktail.create!(
+#     name: "Naked and Famous",
+#     image_url: "https://recipe.awesomedrinks.com/media/cocktails/naked-famous.jpg.700x700_q85_crop.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "Mezcal",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Yellow Chartreuse",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Aperol",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Lime Juice",
+#             quantity: 0.75,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["measure", "shake", "strain"],
+#     recommended_glass: "Coupe",
+#     recommended_ice: "none",
+#     category: "Modern Classic",
+#     garnish: "nope"
+# )
+
+# Cocktail.create!(
+#     name: "Naked and Famous",
+#     image_url: "https://recipe.awesomedrinks.com/media/cocktails/naked-famous.jpg.700x700_q85_crop.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "Mezcal",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Yellow Chartreuse",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Aperol",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Lime Juice",
+#             quantity: 0.75,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["measure", "shake", "strain"],
+#     recommended_glass: "Coupe",
+#     recommended_ice: "none",
+#     category: "Modern Classic",
+#     garnish: "nope"
+# )
+
 Cocktail.create!(
-    name: "Naked and Famous",
-    image_url: "https://recipe.awesomedrinks.com/media/cocktails/naked-famous.jpg.700x700_q85_crop.jpg",
+    name: "Nuclear Daiquiri",
+    image_url: "https://lh3.googleusercontent.com/proxy/KwEVPk210_qVhMGG8cFz4gZODX6tGJ79koN0I8yN2RV0m_vey_KdsMkzJozjrxGHq8ywlbZGdVxL5Jm-ZpKSK2-xIftIaQ1WNjucGMxj8F_7DB2OsWiOI7Wi0lS9OZri9KkdFyn7vQtMq_WKehLETaeo",
     cocktail_ingredients: [
         {
-            name: "Mezcal",
+            name: "Wray and Nephew White Overproof Rum",
+            quantity: 1,
+            unit: "oz"
+        },
+        {
+            name: "Green Chartreuse",
             quantity: 0.75,
             unit: "oz"
         },
         {
-            name: "Yellow Chartreuse",
-            quantity: 0.75,
-            unit: "oz"
-        },
-        {
-            name: "Aperol",
+            name: "Velvet Falernum",
             quantity: 0.75,
             unit: "oz"
         },
         {
             name: "Lime Juice",
-            quantity: 0.75,
+            quantity: 1,
             unit: "oz"
         }
     ],
     instructions: ["measure", "shake", "strain"],
-    recommended_glass: "Coupe",
+    recommended_glass: "Nick and Nora",
     recommended_ice: "none",
     category: "Modern Classic",
-    garnish: "nope"
+    garnish: "Lime Twist"
 )
