@@ -10,25 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_11_204614) do
+ActiveRecord::Schema.define(version: 2020_12_11_204601) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "cocktail_ingredients", force: :cascade do |t|
-    t.integer "ingredient_id"
-    t.integer "cocktail_id"
-    t.string "name"
-    t.string "category"
-    t.string "image_url"
-    t.string "measurement"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "cocktails", force: :cascade do |t|
     t.string "name"
     t.string "image_url"
+    t.jsonb "cocktail_ingredients"
     t.text "instructions", default: [], array: true
     t.string "recommended_glass"
     t.string "recommended_ice"
@@ -43,6 +33,7 @@ ActiveRecord::Schema.define(version: 2020_12_11_204614) do
     t.string "category"
     t.string "image_url"
     t.float "quantity"
+    t.string "unit"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -54,7 +45,7 @@ ActiveRecord::Schema.define(version: 2020_12_11_204614) do
     t.string "category"
     t.string "image_url"
     t.float "quantity"
-    t.boolean "running_low"
+    t.string "unit"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

@@ -7,7 +7,7 @@ class CreateUserIngredients < ActiveRecord::Migration[6.0]
       t.string :category
       t.string :image_url
       t.float :quantity
-      t.boolean :running_low
+      t.string :unit
       t.timestamps
     end
   end

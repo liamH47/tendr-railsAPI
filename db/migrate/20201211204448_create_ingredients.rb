@@ -5,6 +5,7 @@ class CreateIngredients < ActiveRecord::Migration[6.0]
       t.string :category
       t.string :image_url
       t.float :quantity
+      t.string :unit
       t.timestamps
     end
   end

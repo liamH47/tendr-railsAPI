@@ -29,7 +29,7 @@ class Api::V1::UserIngredientsController < ApplicationController
     private
 
     def user_ingredient_params
-        params.require(:user_ingredient).permit(:ingredient_id, :user_id, :name, :category, :image_url, :running_low)
+        params.require(:user_ingredient).permit(:ingredient_id, :user_id, :name, :category, :image_url, :quantity, :unit, :running_low)
     end
 
 end
