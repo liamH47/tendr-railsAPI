@@ -276,21 +276,16 @@ wray = Ingredient.create!(
 # )
 
 Cocktail.create!(
-    name: "Nuclear Daiquiri",
+    name: "Daiquiri",
     image_url: "https://lh3.googleusercontent.com/proxy/KwEVPk210_qVhMGG8cFz4gZODX6tGJ79koN0I8yN2RV0m_vey_KdsMkzJozjrxGHq8ywlbZGdVxL5Jm-ZpKSK2-xIftIaQ1WNjucGMxj8F_7DB2OsWiOI7Wi0lS9OZri9KkdFyn7vQtMq_WKehLETaeo",
     cocktail_ingredients: [
         {
-            name: "Wray and Nephew White Overproof Rum",
-            quantity: 1,
+            name: "White Rum",
+            quantity: 2,
             unit: "oz"
         },
         {
-            name: "Green Chartreuse",
-            quantity: 0.75,
-            unit: "oz"
-        },
-        {
-            name: "Velvet Falernum",
+            name: "Simple Syrup",
             quantity: 0.75,
             unit: "oz"
         },
@@ -303,6 +298,6 @@ Cocktail.create!(
     instructions: ["measure", "shake", "strain"],
     recommended_glass: "Nick and Nora",
     recommended_ice: "none",
-    category: "Modern Classic",
+    category: "Classic",
     garnish: "Lime Twist"
 )
