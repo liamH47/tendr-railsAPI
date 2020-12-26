@@ -137,21 +137,28 @@
 #     unit: "oz"
 # )
 
-falernum = Ingredient.create!(
-    name: "Velvet Falernum",
-    category: "Liqueur",
-    image_url: "https://products2.imgix.drizly.com/ci-velvet-falernum-870c57361ece01e6.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+orgeat = Ingredient.create!(
+    name: "Orgeat",
+    category: "Sweetener",
+    image_url: "https://products1.imgix.drizly.com/ci-bg-reynolds-orgeat-8fbe3cab8dd2531f.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
     quantity: 34,
     unit: "oz"
 )
+# falernum = Ingredient.create!(
+#     name: "Velvet Falernum",
+#     category: "Liqueur",
+#     image_url: "https://products2.imgix.drizly.com/ci-velvet-falernum-870c57361ece01e6.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 34,
+#     unit: "oz"
+# )
 
-wray = Ingredient.create!(
-    name: "Wray and Nephew White Overproof Rum",
-    category: "Spirit",
-    image_url: "https://products3.imgix.drizly.com/ci-wray-nephew-white-overproof-rum-74e207c37759a35d.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
-    quantity: 25,
-    unit: "oz"
-)
+# wray = Ingredient.create!(
+#     name: "Wray and Nephew White Overproof Rum",
+#     category: "Spirit",
+#     image_url: "https://products3.imgix.drizly.com/ci-wray-nephew-white-overproof-rum-74e207c37759a35d.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 25,
+#     unit: "oz"
+# )
 # Cocktail.create!(
 #     name: "Old Fashioned",
 #     image_url: "https://www.liquor.com/thmb/f_Fv27Y9k7zIofk_E6rhz37BpWQ=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__05__08113350__bourbon-old-fashioned-720x720-recipe-ade6f7780c304999be3577e565c9bcdd.jpg",
@@ -275,29 +282,29 @@ wray = Ingredient.create!(
 #     garnish: "nope"
 # )
 
-Cocktail.create!(
-    name: "Daiquiri",
-    image_url: "https://lh3.googleusercontent.com/proxy/KwEVPk210_qVhMGG8cFz4gZODX6tGJ79koN0I8yN2RV0m_vey_KdsMkzJozjrxGHq8ywlbZGdVxL5Jm-ZpKSK2-xIftIaQ1WNjucGMxj8F_7DB2OsWiOI7Wi0lS9OZri9KkdFyn7vQtMq_WKehLETaeo",
-    cocktail_ingredients: [
-        {
-            name: "White Rum",
-            quantity: 2,
-            unit: "oz"
-        },
-        {
-            name: "Simple Syrup",
-            quantity: 0.75,
-            unit: "oz"
-        },
-        {
-            name: "Lime Juice",
-            quantity: 1,
-            unit: "oz"
-        }
-    ],
-    instructions: ["measure", "shake", "strain"],
-    recommended_glass: "Nick and Nora",
-    recommended_ice: "none",
-    category: "Classic",
-    garnish: "Lime Twist"
-)
+# Cocktail.create!(
+#     name: "Daiquiri",
+#     image_url: "https://lh3.googleusercontent.com/proxy/KwEVPk210_qVhMGG8cFz4gZODX6tGJ79koN0I8yN2RV0m_vey_KdsMkzJozjrxGHq8ywlbZGdVxL5Jm-ZpKSK2-xIftIaQ1WNjucGMxj8F_7DB2OsWiOI7Wi0lS9OZri9KkdFyn7vQtMq_WKehLETaeo",
+#     cocktail_ingredients: [
+#         {
+#             name: "White Rum",
+#             quantity: 2,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Simple Syrup",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Lime Juice",
+#             quantity: 1,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["measure", "shake", "strain"],
+#     recommended_glass: "Nick and Nora",
+#     recommended_ice: "none",
+#     category: "Classic",
+#     garnish: "Lime Twist"
+# )
