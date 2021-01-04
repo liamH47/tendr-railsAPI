@@ -23,7 +23,7 @@ class Api::V1::SavedCocktailsController < ApplicationController
 
     def update
         @saved_cocktail = SavedCocktail.find(params[:id])
-        @saved_cocktail.update(saved_cocktail_params)
+        @saved_cocktail.update(params.require(:saved_cocktail).permit(:user_id, :cocktail_id, notes: []))
         render json: @saved_cocktail
     end
 
