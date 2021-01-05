@@ -12,11 +12,11 @@
 # Cocktail.destroy_all
 
 
-user = User.create!(
-    username: "Liam",
-    password: "1234",
-    email: "liam@gmail.com"
-)
+# user = User.create!(
+#     username: "Liam",
+#     password: "1234",
+#     email: "liam@gmail.com"
+# )
 
 # Ingredient.create!(
 #     name: "White rum",
@@ -159,6 +159,50 @@ user = User.create!(
 #     quantity: 25,
 #     unit: "oz"
 # )
+# campari = Ingredient.create!(
+#     name: "Campari",
+#     category: "Liqueur",
+#     image_url: "https://dydza6t6xitx6.cloudfront.net/ci-campari-9fd021ee92f1aa3a.jpeg",
+#     quantity: 25,
+#     unit: "oz"
+# )
+
+sweet_vermouth = Ingredient.create!(
+    name: "Sweet Vermouth",
+    category: "Fortified Wine",
+    image_url: "https://dydza6t6xitx6.cloudfront.net/ci-carpano-antica-formula-vermouth-50d7e2e8a55a777a.jpeg",
+    quantity: 25,
+    unit: "oz"
+)
+
+# Cocktail.create!(
+#     name: "Negroni",
+#     image_url: "https://www.liquor.com/thmb/FpQjWZNtBBC8PoW8aPfUj7cysYg=/720x720/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__05__08110806__negroni-720x720-recipe-7c1b747a616f4659af4008d025ab55df.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "Gin",
+#             quantity: 1,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Campari",
+#             quantity: 1,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Sweet Vermouth",
+#             quantity: 1,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["Combine Ingredients in glass", "Add ice and stir until chilled", "Garnish with orange twist"],
+#     recommended_glass: "double rocks",
+#     recommended_ice: "2 inch cube",
+#     category: "Classic",
+#     garnish: "orange twist"
+# )
+
+
 # Cocktail.create!(
 #     name: "Old Fashioned",
 #     image_url: "https://www.liquor.com/thmb/f_Fv27Y9k7zIofk_E6rhz37BpWQ=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__05__08113350__bourbon-old-fashioned-720x720-recipe-ade6f7780c304999be3577e565c9bcdd.jpg",
