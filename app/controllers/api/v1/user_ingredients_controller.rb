@@ -1,4 +1,5 @@
 class Api::V1::UserIngredientsController < ApplicationController
+    skip_before_action :authorized
 
     def show
         @user_ingredient = UserIngredient.find(params[:id])

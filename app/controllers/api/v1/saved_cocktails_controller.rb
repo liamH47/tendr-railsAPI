@@ -1,6 +1,6 @@
 
 class Api::V1::SavedCocktailsController < ApplicationController
-
+    skip_before_action :authorized
     def show
         @saved_cocktail = SavedCocktail.find(params[:id])
         render json: @saved_cocktail
