@@ -1,5 +1,5 @@
 class Api::V1::CocktailsController < ApplicationController
-
+    skip_before_action :authorized
     def show
         @cocktail = Cocktail.find(params[:id])
         render json: @cocktail

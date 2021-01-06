@@ -1,5 +1,5 @@
 class Api::V1::ShoppingListItemsController < ApplicationController
-
+    skip_before_action :authorized
     def show
         @shopping_list_item = ShoppingListItem.find(params[:id])
         render json: @shopping_list_item
