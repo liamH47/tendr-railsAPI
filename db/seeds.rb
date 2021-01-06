@@ -159,6 +159,147 @@ user = User.create!(
 #     quantity: 25,
 #     unit: "oz"
 # )
+# rye = Ingredient.create!(
+#     name: "Rye Whiskey",
+#     category: "Spirit",
+#     image_url: "https://dydza6t6xitx6.cloudfront.net/ci-old-overholt-original-58c66ad103296f70.png",
+#     quantity: 34,
+#     unit: "oz"
+# )
+
+# jamaica_rum = Ingredient.create!(
+#     name: "Jamaica Rum",
+#     category: "Spirit",
+#     image_url: "https://products0.imgix.drizly.com/ci-appleton-estate-reserve-blend-6a177db37e00d9c8.png?auto=format%2Ccompress&dpr=2&fm=jpg&h=240&q=20",
+#     quantity: 34,
+#     unit: "oz"
+# )
+
+# rhum = Ingredient.create!(
+#     name: "Rhum Agricole",
+#     category: "Spirit",
+#     image_url: "https://products0.imgix.drizly.com/ci-rhum-jm-blanc-50-ebab9526d8fc4249.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 34,
+#     unit: "oz"
+# )
+
+ginger_beer = Ingredient.create!(
+    name: "Ginger Beer",
+    category: "Soft Drink",
+    image_url: "https://products2.imgix.drizly.com/ci-q-ginger-beer-4f4bd54ed6292fc3.png?auto=format%2Ccompress&fm=jpg&q=20",
+    quantity: 8,
+    unit: "oz"
+)
+
+
+# dry_curacao = Ingredient.create!(
+#     name: "Dry Curacao",
+#     category: "Liqueur",
+#     image_url: "https://products0.imgix.drizly.com/ci-pierre-ferrand-dry-curacao-5649b0b65194c2cb.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 34,
+#     unit: "oz"
+# )
+
+Cocktail.create!(
+    name: "Moscow Mule",
+    image_url: "https://www.liquor.com/thmb/zhvgy9kpquZlJPHTEafTrrWVZL0=/720x540/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__liquor__2017__03__07152853__moscow-mule-720x720-recipe-61ce552013b04880901b2abfb63017fd.jpg",
+    cocktail_ingredients: [
+        {
+            name: "Vodka",
+            quantity: 2,
+            unit: "oz"
+        },
+        {
+            name: "Lime Juice",
+            quantity: 0.75,
+            unit: "oz"
+        },
+        {
+            name: "Ginger Beer",
+            quantity: 4,
+            unit: "oz"
+        }
+    ],
+    instructions: ["Add ice to copper mug", "Pour 1oz of ginger beer in", "Add vodka and lime juice", "Top with remaining ginger beer", "Garnish with lime wheel"],
+    recommended_glass: "Copper Mug",
+    recommended_ice: "Cubes",
+    category: "Classic",
+    garnish: "Lime Wheel"
+)
+
+Cocktail.create!(
+    name: "Tia Mia",
+    image_url: "https://www.liquor.com/thmb/x9T-bwUWWI1EnRLP3VrAjz3GktQ=/735x0/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__08__12132235__nu-mai-tai-720x720-recipe-76899966c2f744708b59daf4befb2fea.jpg",
+    cocktail_ingredients: [
+        {
+            name: "Jamaica Rum",
+            quantity: 1,
+            unit: "oz"
+        },
+        {
+            name: "Mezcal",
+            quantity: 1,
+            unit: "oz"
+        },
+        {
+            name: "Dry Curacao",
+            quantity: 0.5,
+            unit: "oz"
+        },
+        {
+            name: "Lime Juice",
+            quantity: 0.75,
+            unit: "oz"
+        },
+        {
+            name: "Orgeat",
+            quantity: 0.5,
+            unit: "oz"
+        }
+    ],
+    instructions: ["Add ingredients to tin", "Add crushed ice and whip shake", "Strain into glass and pack with pebble ice", "Garnish with mint sprig"],
+    recommended_glass: "Double Rocks",
+    recommended_ice: "Crushed",
+    category: "Modern Tiki",
+    garnish: "Mint Sprig"
+)
+
+Cocktail.create!(
+    name: "Mai Tai",
+    image_url: "https://www.liquor.com/thmb/3NtfHMZPsE4k5pbAE2opLc84Ct4=/720x540/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__08__10101652__mai-tai-720x720-recipe-862a7d603e7e4e57a9ca95caee98a4a6.jpg",
+    cocktail_ingredients: [
+        {
+            name: "Jamaica Rum",
+            quantity: 1,
+            unit: "oz"
+        },
+        {
+            name: "Rhum Agricole",
+            quantity: 1,
+            unit: "oz"
+        },
+        {
+            name: "Dry Curacao",
+            quantity: 0.5,
+            unit: "oz"
+        },
+        {
+            name: "Lime Juice",
+            quantity: 1,
+            unit: "oz"
+        },
+        {
+            name: "Orgeat",
+            quantity: 0.5,
+            unit: "oz"
+        }
+    ],
+    instructions: ["Add ingredients to tin", "Add crushed ice and whip shake", "Strain into glass and pack with pebble ice", "Garnish with mint sprig, and lime wheel"],
+    recommended_glass: "Double Rocks",
+    recommended_ice: "Crushed",
+    category: "Classic",
+    garnish: "Mint Sprig, Lime Wheel"
+)
 # Cocktail.create!(
 #     name: "Old Fashioned",
 #     image_url: "https://www.liquor.com/thmb/f_Fv27Y9k7zIofk_E6rhz37BpWQ=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__05__08113350__bourbon-old-fashioned-720x720-recipe-ade6f7780c304999be3577e565c9bcdd.jpg",
@@ -181,9 +322,9 @@ user = User.create!(
 #     ],
 #     instructions: ["measure", "shake", "strain"],
 #     recommended_glass: "double rocks",
-#     recommended_ice: "crushed",
+#     recommended_ice: "none",
 #     category: "strong",
-#     garnish: "orange twist"
+#     garnish: ""
 # )
 
 # Cocktail.create!(
