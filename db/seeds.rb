@@ -13,26 +13,26 @@
 
 
 # user = User.create!(
-#     username: "Liam",
-#     password: "1234",
+#     username: "asantos6",
+#     password: "asantos6",
 #     email: "liam@gmail.com"
 # )
 
-Ingredient.create!(
-    name: "White rum",
-    category: "spirit",
-    image_url: "https://products0.imgix.drizly.com/ci-flor-de-cana-rum-white-extry-dry-4-year-032a3767256937d1.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
-    quantity: 34,
-    unit: "oz"
-)
+# Ingredient.create!(
+#     name: "White rum",
+#     category: "spirit",
+#     image_url: "https://products0.imgix.drizly.com/ci-flor-de-cana-rum-white-extry-dry-4-year-032a3767256937d1.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 34,
+#     unit: "oz"
+# )
 
-bourbon = Ingredient.create!(
-    name: "Bourbon",
-    category: "spirit",
-    image_url: "https://products1.imgix.drizly.com/ci-old-forester-classic-256184abbf2bfbc0.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
-    quantity: 34,
-    unit: "oz"
-)
+# bourbon = Ingredient.create!(
+#     name: "Bourbon",
+#     category: "spirit",
+#     image_url: "https://products1.imgix.drizly.com/ci-old-forester-classic-256184abbf2bfbc0.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 34,
+#     unit: "oz"
+# )
 
 # ango = Ingredient.create!(
 #     name: "Angostura Bitters",
@@ -42,21 +42,21 @@ bourbon = Ingredient.create!(
 #     unit: "dashes"
 # )
 
-simple = Ingredient.create!(
-    name: "Simple Syrup",
-    category: "Sweetener",
-    image_url: "https://products0.imgix.drizly.com/ci-barsmith-simple-syrup-289faff80cf7bb31.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
-    quantity: 12,
-    unit: "oz"
-)
+# simple = Ingredient.create!(
+#     name: "Simple Syrup",
+#     category: "Sweetener",
+#     image_url: "https://products0.imgix.drizly.com/ci-barsmith-simple-syrup-289faff80cf7bb31.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 12,
+#     unit: "oz"
+# )
 
-lemon_juice = Ingredient.create!(
-    name: "Lemon Juice",
-    category: "Citrus Juice",
-    image_url: "https://products2.imgix.drizly.com/ci-fresh-squeezed-lemon-juice-0ba751aa3e3e8ff7.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
-    quantity: 12,
-    unit: "oz"
-)
+# lemon_juice = Ingredient.create!(
+#     name: "Lemon Juice",
+#     category: "Citrus Juice",
+#     image_url: "https://products2.imgix.drizly.com/ci-fresh-squeezed-lemon-juice-0ba751aa3e3e8ff7.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 12,
+#     unit: "oz"
+# )
 
 # egg_white = Ingredient.create!(
 #     name: "Egg White",
@@ -227,7 +227,7 @@ lemon_juice = Ingredient.create!(
 # agave = Ingredient.create!(
 #     name: "Agave Syrup",
 #     category: "Sweetener",
-#     image_url: "https://products1.imgix.drizly.com/ci-angostura-orange-bitters-6240fb636e36fd0c.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+#     image_url: "https://products1.imgix.drizly.com/ci-azunia-agave-syrup-f14857d478666ad1.png?auto=format%2Ccompress&fm=jpg&q=20",
 #     quantity: 34,
 #     unit: "oz"
 # )
@@ -358,86 +358,86 @@ lemon_juice = Ingredient.create!(
 #     garnish: ""
 # )
 
-Cocktail.create!(
-    name: "Martini",
-    image_url: "https://www.liquor.com/thmb/Tg83gGIz-cS8nO-aAHa2N6R4eFQ=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/dry-martini-720x720-primary-a6de08f8cd584ad88520287922578bcb.jpg",
-    cocktail_ingredients: [
-        {
-            name: "Gin",
-            quantity: 2.25,
-            unit: "oz"
-        },
-        {
-            name: "Dry Vermouth",
-            quantity: 0.75,
-            unit: "oz"
-        },
-        {
-            name: "Orange Bitters",
-            quantity: 2,
-            unit: "dashes"
-        }
-    ],
-    instructions: ["Add Ingredients and ice to mixing glass", "Stir until chilled", "Strain into chilled martini glass", "Garnish with lemon twist"],
-    recommended_glass: "Martini",
-    recommended_ice: "none",
-    category: "Classic",
-    garnish: "Lemon Twist"
-)
+# Cocktail.create!(
+#     name: "Martini",
+#     image_url: "https://www.liquor.com/thmb/Tg83gGIz-cS8nO-aAHa2N6R4eFQ=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/dry-martini-720x720-primary-a6de08f8cd584ad88520287922578bcb.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "Gin",
+#             quantity: 2.25,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Dry Vermouth",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Orange Bitters",
+#             quantity: 2,
+#             unit: "dashes"
+#         }
+#     ],
+#     instructions: ["Add Ingredients and ice to mixing glass", "Stir until chilled", "Strain into chilled martini glass", "Garnish with lemon twist"],
+#     recommended_glass: "Martini",
+#     recommended_ice: "none",
+#     category: "Classic",
+#     garnish: "Lemon Twist"
+# )
 
-Cocktail.create!(
-    name: "Margarita",
-    image_url: "https://www.liquor.com/thmb/HklGrptdIrNFa6YKcf8jwoAcp_s=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__04__23134943__Margarita-720x720-recipe-v2-6dc3213825c94a9cb6d7ce1818ce6e31.jpg",
-    cocktail_ingredients: [
-        {
-            name: "Silver Tequila",
-            quantity: 1.5,
-            unit: "oz"
-        },
-        {
-            name: "Cointreau",
-            quantity: 0.75,
-            unit: "oz"
-        },
-        {
-            name: "Lime Juice",
-            quantity: 0.75,
-            unit: "oz"
-        }
-    ],
-    instructions: ["Salt the outer rim of the coupe", "Add Ingredients to tin and shake", "Strain into glass", "Garnish with lime wheel"],
-    recommended_glass: "Double Rocks",
-    recommended_ice: "Cubes",
-    category: "Classic",
-    garnish: "Lime Wheel"
-)
+# Cocktail.create!(
+#     name: "Margarita",
+#     image_url: "https://www.liquor.com/thmb/HklGrptdIrNFa6YKcf8jwoAcp_s=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__04__23134943__Margarita-720x720-recipe-v2-6dc3213825c94a9cb6d7ce1818ce6e31.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "Silver Tequila",
+#             quantity: 1.5,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Cointreau",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Lime Juice",
+#             quantity: 0.75,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["Salt the outer rim of the coupe", "Add Ingredients to tin and shake", "Strain into glass", "Garnish with lime wheel"],
+#     recommended_glass: "Double Rocks",
+#     recommended_ice: "Cubes",
+#     category: "Classic",
+#     garnish: "Lime Wheel"
+# )
 
-Cocktail.create!(
-    name: "Tommy's Margarita",
-    image_url: "https://www.liquor.com/thmb/2B3VWUsE-sWBLpPMGylQgVDQ1jk=/600x600/filters:max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__08__10151022__margarita-720x720-article-3ef4a1dc383e43f18703f735af00220a.jpg",
-    cocktail_ingredients: [
-        {
-            name: "Reposado",
-            quantity: 2,
-            unit: "oz"
-        },
-        {
-            name: "Agave Syrup",
-            quantity: 0.5,
-            unit: "oz"
-        },
-        {
-            name: "Lime Juice",
-            quantity: 1,
-            unit: "oz"
-        }
-    ],
-    instructions: ["Add Ingredients to tin and shake", "Strain into glass", "Garnish with lime wheel"],
-    recommended_glass: "Double Rocks",
-    recommended_ice: "Cubes",
-    category: "Classic",
-    garnish: "Lime Wheel"
-)
+# Cocktail.create!(
+#     name: "Tommy's Margarita",
+#     image_url: "https://www.liquor.com/thmb/2B3VWUsE-sWBLpPMGylQgVDQ1jk=/600x600/filters:max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__08__10151022__margarita-720x720-article-3ef4a1dc383e43f18703f735af00220a.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "Reposado",
+#             quantity: 2,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Agave Syrup",
+#             quantity: 0.5,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Lime Juice",
+#             quantity: 1,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["Add Ingredients to tin and shake", "Strain into glass", "Garnish with lime wheel"],
+#     recommended_glass: "Double Rocks",
+#     recommended_ice: "Cubes",
+#     category: "Classic",
+#     garnish: "Lime Wheel"
+# )
 # Cocktail.create!(
 #     name: "Whiskey Sour",
 #     image_url: "https://dailyappetite.com/wp-content/uploads/2020/03/Bourbon-Whiskey-Sour-2.jpg",
@@ -536,7 +536,7 @@ Cocktail.create!(
 
 # Cocktail.create!(
 #     name: "Daiquiri",
-#     image_url: "https://www.liquor.com/thmb/Y-IzKaMiscd49XzGfZKoCworSL0=/600x600/filters:max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__10__07114803__lemon-drop-720x720-recipe-1-82c3e113f3a64eb3b798b01ebdd01a82.jpg",
+#     image_url: "https://www.liquor.com/thmb/aYWKsIaU1k0fJA570vP3CDVHZss=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/hemingway-daquiri-720x720-primary-19577c695b654b04bc3cfb22aeed2043.jpg",
 #     cocktail_ingredients: [
 #         {
 #             name: "White Rum",
@@ -554,9 +554,163 @@ Cocktail.create!(
 #             unit: "oz"
 #         }
 #     ],
-#     instructions: ["measure", "shake", "strain"],
-#     recommended_glass: "Nick and Nora",
+#     instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with lime wheel"],
+#     recommended_glass: "Nick and Nora or coupe",
 #     recommended_ice: "none",
 #     category: "Classic",
 #     garnish: "Lime Twist"
 # )
+
+# Cocktail.create!(
+#     name: "Boulevardier",
+#     image_url: "https://www.liquor.com/thmb/sjtNLRrrnQz-MjrOK7qhehN_ySE=/600x600/filters:max_bytes(150000):strip_icc()/americano-720x720-article-5ea6fcd7ac2541cd888a272fc3dbd941.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "Bourbon",
+#             quantity: 1.5,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Sweet Vermouth",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Campari",
+#             quantity: 0.75,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["Combine all ingredients in glass", "Stir until chilled", "Garnish with orange twist"],
+#     recommended_glass: "Double Rocks",
+#     recommended_ice: "none",
+#     category: "Classic",
+#     garnish: "Orange Twist"
+# )
+
+# soda = Ingredient.create!(
+#     name: "Club Soda",
+#     category: "Soft Drink",
+#     image_url: "https://products0.imgix.drizly.com/ci-fever-tree-club-soda-2dd5d6304675898b.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 34,
+#     unit: "oz"
+# )
+# mint = Ingredient.create!(
+#     name: "Mint",
+#     category: "Herb",
+#     image_url: "https://products0.imgix.drizly.com/ci-mint-df929b2cbf63dfa7.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 34,
+#     unit: "Leaves"
+# )
+# soda = Ingredient.create!(
+#     name: "Honey Syrup",
+#     category: "Sweetener",
+#     image_url: "https://products2.imgix.drizly.com/ci-3-hundred-days-distilling-colorado-harvest-honey-moonshine-9c30ce6a013407e9.png?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 34,
+#     unit: "oz"
+# )
+
+
+# pine = Ingredient.create!(
+#     name: "Pineapple Juice",
+#     category: "Fruit Juice",
+#     image_url: "https://products0.imgix.drizly.com/ci-everfresh-pineapple-60d7962bf3427b04.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 34,
+#     unit: "oz"
+# )
+# dem = Ingredient.create!(
+#     name: "Demerara Syrup",
+#     category: "Sweetener",
+#     image_url: "https://products3.imgix.drizly.com/ci-barsmith-orgeat-tropical-almond-syrup-1e39eaaf551845e2.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 34,
+#     unit: "oz"
+# )
+# jb = Ingredient.create!(
+#     name: "Blended Scotch",
+#     category: "Spirit",
+#     image_url: "https://products0.imgix.drizly.com/ci-j-b-rare-scotch-476ad8e136d8f10b.jpeg?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 34,
+#     unit: "oz"
+# )
+# lux = Ingredient.create!(
+#     name: "Maraschino Liqueur",
+#     category: "Liqueur",
+#     image_url: "https://dydza6t6xitx6.cloudfront.net/ci-luxardo-maraschino-liqueur-db564d23a18da235.jpeg",
+#     quantity: 34,
+#     unit: "oz"
+# )
+
+# lux = Ingredient.create!(
+#     name: "Maraschino Liqueur",
+#     category: "Liqueur",
+#     image_url: "https://dydza6t6xitx6.cloudfront.net/ci-luxardo-maraschino-liqueur-db564d23a18da235.jpeg",
+#     quantity: 34,
+#     unit: "oz"
+# )
+
+# lux = Ingredient.create!(
+#     name: "Maraschino Liqueur",
+#     category: "Liqueur",
+#     image_url: "https://dydza6t6xitx6.cloudfront.net/ci-luxardo-maraschino-liqueur-db564d23a18da235.jpeg",
+#     quantity: 34,
+#     unit: "oz"
+# )
+
+Cocktail.create!(
+    name: "Martinez",
+    image_url: "https://www.liquor.com/thmb/6B2J-meKJeY6kdTrajUVHqlEsR0=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__05__14082109__martinez-v2-720x720-recipe-7cb59a52cf8b43a89aeae26ea594d70e.jpg",
+    cocktail_ingredients: [
+        {
+            name: "Gin",
+            quantity: 2,
+            unit: "oz"
+        },
+        {
+            name: "Maraschino Liqueur",
+            quantity: 0.25,
+            unit: "oz"
+        },
+        {
+            name: "Angostura Bitters",
+            quantity: 2,
+            unit: "dashes"
+        },
+        {
+            name: "Sweet Vermouth",
+            quantity: 1,
+            unit: "oz"
+        }
+    ],
+    instructions: ["Combine all ingredients in mixing glass", "Stir until chilled", "Strain into glass", "Garnish with lemon twist"],
+    recommended_glass: "Coupe",
+    recommended_ice: "none",
+    category: "Classic",
+    garnish: "Lemon Twist"
+)
+
+Cocktail.create!(
+    name: "Mint Julep",
+    image_url: "https://www.liquor.com/thmb/L3CRjv98CVf3b_zGo9NYY6BhSJw=/720x720/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2014__02__23153839__gin-on-gin-720-720-recipe-00185fcdaf0f4392a8799a2f557cb609.png",
+    cocktail_ingredients: [
+        {
+            name: "Bourbon",
+            quantity: 2.5,
+            unit: "oz"
+        },
+        {
+            name: "Demerara Syrup",
+            quantity: 0.75,
+            unit: "oz"
+        },
+        {
+            name: "Mint",
+            quantity: 7,
+            unit: "Leaves"
+        }
+    ],
+    instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with mint sprig"],
+    recommended_glass: "Julep cup",
+    recommended_ice: "Crushed",
+    category: "Classic",
+    garnish: "Mint sprig"
+)
