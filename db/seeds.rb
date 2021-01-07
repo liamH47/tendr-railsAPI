@@ -656,61 +656,322 @@
 #     unit: "oz"
 # )
 
+# Cocktail.create!(
+#     name: "Martinez",
+#     image_url: "https://www.liquor.com/thmb/6B2J-meKJeY6kdTrajUVHqlEsR0=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__05__14082109__martinez-v2-720x720-recipe-7cb59a52cf8b43a89aeae26ea594d70e.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "Gin",
+#             quantity: 2,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Maraschino Liqueur",
+#             quantity: 0.25,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Angostura Bitters",
+#             quantity: 2,
+#             unit: "dashes"
+#         },
+#         {
+#             name: "Sweet Vermouth",
+#             quantity: 1,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["Combine all ingredients in mixing glass", "Stir until chilled", "Strain into glass", "Garnish with lemon twist"],
+#     recommended_glass: "Coupe",
+#     recommended_ice: "none",
+#     category: "Classic",
+#     garnish: "Lemon Twist"
+# )
+
+# Cocktail.create!(
+#     name: "Mint Julep",
+#     image_url: "https://www.liquor.com/thmb/L3CRjv98CVf3b_zGo9NYY6BhSJw=/720x720/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2014__02__23153839__gin-on-gin-720-720-recipe-00185fcdaf0f4392a8799a2f557cb609.png",
+#     cocktail_ingredients: [
+#         {
+#             name: "Bourbon",
+#             quantity: 2.5,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Demerara Syrup",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Mint",
+#             quantity: 7,
+#             unit: "Leaves"
+#         }
+#     ],
+#     instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with mint sprig"],
+#     recommended_glass: "Julep cup",
+#     recommended_ice: "Crushed",
+#     category: "Classic",
+#     garnish: "Mint sprig"
+# )
+
+# Cocktail.create!(
+#     name: "Mojito",
+#     image_url: "https://www.liquor.com/thmb/qBrBRm02Y-l2BvmF_TZwTtII-EI=/735x0/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__09__04153106__mojito-720x720-recipe-a55b114fc99c4a64b38c9ef6d1660e20.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "White Rum",
+#             quantity: 2,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Simple Syrup",
+#             quantity: 0.5,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Lime Juice",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Club Soda",
+#             quantity: 4,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Mint",
+#             quantity: 7,
+#             unit: "Leaves"
+#         }
+#     ],
+#     instructions: ["Slap mint leaves against palms and add to glass", "Add ice and remaining ingredients except soda", "Stir", "Top with soda and garnish with mint sprig"],
+#     recommended_glass: "Collins glass",
+#     recommended_ice: "none",
+#     category: "Classic",
+#     garnish: "Mint sprig"
+# )
+
+# Cocktail.create!(
+#     name: "Penicillin",
+#     image_url: "https://www.liquor.com/thmb/41U6-z3CK6BY2xv_Jvy7qcaRntU=/600x600/filters:max_bytes(150000):strip_icc()/irish-maid-720x720-primary-5d83cf94a1764fb2929d1d8f49b92299.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "Blended Scotch",
+#             quantity: 2,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Honey Syrup",
+#             quantity: 0.25,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Spicy Ginger Syrup",
+#             quantity: 0.5,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Lemon Juice",
+#             quantity: 0.75,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with cucumber wheel"],
+#     recommended_glass: "Double rocks",
+#     recommended_ice: "crushed",
+#     category: "Modern Classic",
+#     garnish: "Cucumber wheel"
+# )
+
+# Cocktail.create!(
+#     name: "Gold Rush",
+#     image_url: "https://www.liquor.com/thmb/-YfPQ5lGcKLlYNQdbBEnZl6ZjaQ=/600x600/filters:max_bytes(150000):strip_icc()/beggars-banquet-720x720-recipe-c1c618b352374e1884883aaa57900b0d.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "Bourbon",
+#             quantity: 2,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Honey Syrup",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Lemon Juice",
+#             quantity: 0.75,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with lemon twist"],
+#     recommended_glass: "Double rocks",
+#     recommended_ice: "crushed",
+#     category: "Modern Classic",
+#     garnish: "Lemon twist"
+# )
+
+# Cocktail.create!(
+#     name: "Gimlet",
+#     image_url: "https://www.liquor.com/thmb/Jh_lUNRF5-j9geiGumZNfUsBgm8=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__09__12092910__Vodka-Gimlet-720x720-recipe-e0aad3b18d514bd99faceb8b57f5d446.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "Gin",
+#             quantity: 2.25,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Simple Syrup",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Lime Juice",
+#             quantity: 0.75,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with lime twist"],
+#     recommended_glass: "Coupe",
+#     recommended_ice: "none",
+#     category: "Classic",
+#     garnish: "Lime twist"
+# )
+
+# Cocktail.create!(
+#     name: "Nuclear Daiquiri",
+#     image_url: "https://www.liquor.com/thmb/aYWKsIaU1k0fJA570vP3CDVHZss=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/hemingway-daquiri-720x720-primary-19577c695b654b04bc3cfb22aeed2043.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "Overproof White Rum",
+#             quantity: 1,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Lime Juice",
+#             quantity:1,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Green Chartreuse",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Velvet Falernum",
+#             quantity: 0.25,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with lime wheel"],
+#     recommended_glass: "Nick and Nora",
+#     recommended_ice: "none",
+#     category: "Modern Classic",
+#     garnish: "Lime Wheel"
+# )
+
+# Cocktail.create!(
+#     name: "Zombie",
+#     image_url: "https://www.liquor.com/thmb/1DfpD8wY71jRa2wX16xcOq-V_Os=/600x600/filters:max_bytes(150000):strip_icc()/beachbums-own-720x720-primary-v2-7bdb172b890e422a9b7a4e9a0dfc3b4c.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "White rum",
+#             quantity: 2,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Honey Syrup",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Lime Juice",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Pineapple Juice",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Pineapple rum",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Grapefruit Juice",
+#             quantity: 0.75,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with lemon twist"],
+#     recommended_glass: "Double rocks",
+#     recommended_ice: "crushed",
+#     category: "Tiki",
+#     garnish: "Lemon twist"
+# )
+
 Cocktail.create!(
-    name: "Martinez",
-    image_url: "https://www.liquor.com/thmb/6B2J-meKJeY6kdTrajUVHqlEsR0=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__05__14082109__martinez-v2-720x720-recipe-7cb59a52cf8b43a89aeae26ea594d70e.jpg",
+    name: "Last Word",
+    image_url: "https://www.liquor.com/thmb/jUV5b90mTTunAsHGVBsqJPm1uEw=/720x720/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__06__06222245__last-word-720x720-recipe-35fdadb31c224ebe9bf9b6c63c23e0bf.jpg",
     cocktail_ingredients: [
         {
             name: "Gin",
-            quantity: 2,
-            unit: "oz"
-        },
-        {
-            name: "Maraschino Liqueur",
-            quantity: 0.25,
-            unit: "oz"
-        },
-        {
-            name: "Angostura Bitters",
-            quantity: 2,
-            unit: "dashes"
-        },
-        {
-            name: "Sweet Vermouth",
-            quantity: 1,
-            unit: "oz"
-        }
-    ],
-    instructions: ["Combine all ingredients in mixing glass", "Stir until chilled", "Strain into glass", "Garnish with lemon twist"],
-    recommended_glass: "Coupe",
-    recommended_ice: "none",
-    category: "Classic",
-    garnish: "Lemon Twist"
-)
-
-Cocktail.create!(
-    name: "Mint Julep",
-    image_url: "https://www.liquor.com/thmb/L3CRjv98CVf3b_zGo9NYY6BhSJw=/720x720/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2014__02__23153839__gin-on-gin-720-720-recipe-00185fcdaf0f4392a8799a2f557cb609.png",
-    cocktail_ingredients: [
-        {
-            name: "Bourbon",
-            quantity: 2.5,
-            unit: "oz"
-        },
-        {
-            name: "Demerara Syrup",
             quantity: 0.75,
             unit: "oz"
         },
         {
-            name: "Mint",
-            quantity: 7,
-            unit: "Leaves"
+            name: "Green Chartreuse",
+            quantity: 0.75,
+            unit: "oz"
+        },
+        {
+            name: "Lime Juice",
+            quantity: 0.75,
+            unit: "oz"
+        },
+        {
+            name: "Maraschino Liqueur",
+            quantity: 0.75,
+            unit: "oz"
         }
     ],
-    instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with mint sprig"],
-    recommended_glass: "Julep cup",
-    recommended_ice: "Crushed",
+    instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with lemon twist"],
+    recommended_glass: "Coupe",
+    recommended_ice: "crushed",
     category: "Classic",
-    garnish: "Mint sprig"
+    garnish: "Lemon twist"
+)
+
+Cocktail.create!(
+    name: "Paper Plane",
+    image_url: "https://www.liquor.com/thmb/zqneKab9m_aoM7Qlc17xVMnYx2U=/720x720/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__liquor__2015__09__17143340__ultimate-bourbon-cocktail-youve-never-heard-of-the-paper-plane-720x720-main-image-article-crop-e81fc36db4d34ea6ba0961fcedc82051.jpg",
+    cocktail_ingredients: [
+        {
+            name: "Aperol",
+            quantity: 0.75,
+            unit: "oz"
+        },
+        {
+            name: "Bourbon",
+            quantity: 0.75,
+            unit: "oz"
+        },
+        {
+            name: "Amaro Nonino",
+            quantity: 0.75,
+            unit: "oz"
+        },
+        {
+            name: "Lemon Juice",
+            quantity: 0.75,
+            unit: "oz"
+        }
+    ],
+    instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with lemon twist"],
+    recommended_glass: "Coupe",
+    recommended_ice: "Paper airplane",
+    category: "Modern Classic",
+    garnish: "Lemon twist"
 )
