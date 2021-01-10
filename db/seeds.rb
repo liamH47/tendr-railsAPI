@@ -159,13 +159,13 @@
 #     quantity: 25,
 #     unit: "oz"
 # )
-# rye = Ingredient.create!(
-#     name: "Rye Whiskey",
-#     category: "Spirit",
-#     image_url: "https://dydza6t6xitx6.cloudfront.net/ci-old-overholt-original-58c66ad103296f70.png",
-#     quantity: 34,
-#     unit: "oz"
-# )
+rye = Ingredient.create!(
+    name: "Rye Whiskey",
+    category: "Spirit",
+    image_url: "https://dydza6t6xitx6.cloudfront.net/ci-old-overholt-original-58c66ad103296f70.png",
+    quantity: 34,
+    unit: "oz"
+)
 
 # jamaica_rum = Ingredient.create!(
 #     name: "Jamaica Rum",
@@ -912,66 +912,75 @@
 #     garnish: "Lemon twist"
 # )
 
-Cocktail.create!(
-    name: "Last Word",
-    image_url: "https://www.liquor.com/thmb/jUV5b90mTTunAsHGVBsqJPm1uEw=/720x720/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__06__06222245__last-word-720x720-recipe-35fdadb31c224ebe9bf9b6c63c23e0bf.jpg",
-    cocktail_ingredients: [
-        {
-            name: "Gin",
-            quantity: 0.75,
-            unit: "oz"
-        },
-        {
-            name: "Green Chartreuse",
-            quantity: 0.75,
-            unit: "oz"
-        },
-        {
-            name: "Lime Juice",
-            quantity: 0.75,
-            unit: "oz"
-        },
-        {
-            name: "Maraschino Liqueur",
-            quantity: 0.75,
-            unit: "oz"
-        }
-    ],
-    instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with lemon twist"],
-    recommended_glass: "Coupe",
-    recommended_ice: "crushed",
-    category: "Classic",
-    garnish: "Lemon twist"
+# Cocktail.create!(
+#     name: "Last Word",
+#     image_url: "https://www.liquor.com/thmb/jUV5b90mTTunAsHGVBsqJPm1uEw=/720x720/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__06__06222245__last-word-720x720-recipe-35fdadb31c224ebe9bf9b6c63c23e0bf.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "Gin",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Green Chartreuse",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Lime Juice",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Maraschino Liqueur",
+#             quantity: 0.75,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with lemon twist"],
+#     recommended_glass: "Coupe",
+#     recommended_ice: "crushed",
+#     category: "Classic",
+#     garnish: "Lemon twist"
+# )
+
+# Cocktail.create!(
+#     name: "Paper Plane",
+#     image_url: "https://www.liquor.com/thmb/zqneKab9m_aoM7Qlc17xVMnYx2U=/720x720/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__liquor__2015__09__17143340__ultimate-bourbon-cocktail-youve-never-heard-of-the-paper-plane-720x720-main-image-article-crop-e81fc36db4d34ea6ba0961fcedc82051.jpg",
+#     cocktail_ingredients: [
+#         {
+#             name: "Aperol",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Bourbon",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Amaro Nonino",
+#             quantity: 0.75,
+#             unit: "oz"
+#         },
+#         {
+#             name: "Lemon Juice",
+#             quantity: 0.75,
+#             unit: "oz"
+#         }
+#     ],
+#     instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with lemon twist"],
+#     recommended_glass: "Coupe",
+#     recommended_ice: "Paper airplane",
+#     category: "Modern Classic",
+#     garnish: "Lemon twist"
+# )
+
+rye = Ingredient.create!(
+    name: "Spicy Ginger Syrup",
+    category: "Syrup",
+    image_url: "https://products3.imgix.drizly.com/ci-liber-co-fiery-ginger-syrup-d42919776d8441b9.gif?auto=format%2Ccompress&fm=jpg&q=20",
+    quantity: 34,
+    unit: "oz"
 )
 
-Cocktail.create!(
-    name: "Paper Plane",
-    image_url: "https://www.liquor.com/thmb/zqneKab9m_aoM7Qlc17xVMnYx2U=/720x720/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__liquor__2015__09__17143340__ultimate-bourbon-cocktail-youve-never-heard-of-the-paper-plane-720x720-main-image-article-crop-e81fc36db4d34ea6ba0961fcedc82051.jpg",
-    cocktail_ingredients: [
-        {
-            name: "Aperol",
-            quantity: 0.75,
-            unit: "oz"
-        },
-        {
-            name: "Bourbon",
-            quantity: 0.75,
-            unit: "oz"
-        },
-        {
-            name: "Amaro Nonino",
-            quantity: 0.75,
-            unit: "oz"
-        },
-        {
-            name: "Lemon Juice",
-            quantity: 0.75,
-            unit: "oz"
-        }
-    ],
-    instructions: ["Combine all ingredients in tin", "Shake vigorously", "Strain into glass", "Garnish with lemon twist"],
-    recommended_glass: "Coupe",
-    recommended_ice: "Paper airplane",
-    category: "Modern Classic",
-    garnish: "Lemon twist"
-)
