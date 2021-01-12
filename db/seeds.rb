@@ -159,13 +159,13 @@
 #     quantity: 25,
 #     unit: "oz"
 # )
-rye = Ingredient.create!(
-    name: "Rye Whiskey",
-    category: "Spirit",
-    image_url: "https://dydza6t6xitx6.cloudfront.net/ci-old-overholt-original-58c66ad103296f70.png",
-    quantity: 34,
-    unit: "oz"
-)
+# rye = Ingredient.create!(
+#     name: "Rye Whiskey",
+#     category: "Spirit",
+#     image_url: "https://dydza6t6xitx6.cloudfront.net/ci-old-overholt-original-58c66ad103296f70.png",
+#     quantity: 34,
+#     unit: "oz"
+# )
 
 # jamaica_rum = Ingredient.create!(
 #     name: "Jamaica Rum",
@@ -976,11 +976,18 @@ rye = Ingredient.create!(
 #     garnish: "Lemon twist"
 # )
 
-rye = Ingredient.create!(
-    name: "Spicy Ginger Syrup",
-    category: "Syrup",
-    image_url: "https://products3.imgix.drizly.com/ci-liber-co-fiery-ginger-syrup-d42919776d8441b9.gif?auto=format%2Ccompress&fm=jpg&q=20",
+# rye = Ingredient.create!(
+#     name: "Spicy Ginger Syrup",
+#     category: "Syrup",
+#     image_url: "https://products3.imgix.drizly.com/ci-liber-co-fiery-ginger-syrup-d42919776d8441b9.gif?auto=format%2Ccompress&fm=jpg&q=20",
+#     quantity: 34,
+#     unit: "oz"
+# )
+
+nonino = Ingredient.create!(
+    name: "Amaro Nonino",
+    category: "Amaro",
+    image_url: "https://dydza6t6xitx6.cloudfront.net/ci-amaro-nonino-quintessentia-829f1c84fab5cfd5.png",
     quantity: 34,
     unit: "oz"
 )
-
