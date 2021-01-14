@@ -984,10 +984,19 @@
 #     unit: "oz"
 # )
 
-nonino = Ingredient.create!(
-    name: "Amaro Nonino",
-    category: "Amaro",
-    image_url: "https://dydza6t6xitx6.cloudfront.net/ci-amaro-nonino-quintessentia-829f1c84fab5cfd5.png",
+# nonino = Ingredient.create!(
+#     name: "Amaro Nonino",
+#     category: "Amaro",
+#     image_url: "https://dydza6t6xitx6.cloudfront.net/ci-amaro-nonino-quintessentia-829f1c84fab5cfd5.png",
+#     quantity: 34,
+#     unit: "oz"
+# )
+
+
+pinee = Ingredient.create!(
+    name: "Pineapple Rum",
+    category: "Spirit",
+    image_url: "https://dydza6t6xitx6.cloudfront.net/ci-plantation-pineapple-infused-rum-19335158740def62.png",
     quantity: 34,
     unit: "oz"
 )
