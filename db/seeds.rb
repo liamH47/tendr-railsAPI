@@ -12,11 +12,11 @@
 # Cocktail.destroy_all
 
 
-# user = User.create!(
-#     username: "asantos6",
-#     password: "asantos6",
-#     email: "liam@gmail.com"
-# )
+user = User.create!(
+    username: "chandler",
+    password: "chandler",
+    email: "chandler@gmail.com"
+)
 
 # Ingredient.create!(
 #     name: "White rum",
@@ -993,10 +993,10 @@
 # )
 
 
-pinee = Ingredient.create!(
-    name: "Pineapple Rum",
-    category: "Spirit",
-    image_url: "https://dydza6t6xitx6.cloudfront.net/ci-plantation-pineapple-infused-rum-19335158740def62.png",
-    quantity: 34,
-    unit: "oz"
-)
+# pinee = Ingredient.create!(
+#     name: "Pineapple Rum",
+#     category: "Spirit",
+#     image_url: "https://dydza6t6xitx6.cloudfront.net/ci-plantation-pineapple-infused-rum-19335158740def62.png",
+#     quantity: 34,
+#     unit: "oz"
+# )
