@@ -1,24 +1,11 @@
-# README
+Tendr Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Thank you for your interest in Tendr! If you would like to run this on your local machine, please do the following:
 
-Things you may want to cover:
+-clone this repo and open it on your machine
+-run 'bundle install' to install all of the necessary dependencies
+-run 'rails db:create', then 'rails db: migrate', and finally, 'rails db:seed' to set up your database
+-run 'rails s' to start the server.  
 
-* Ruby version
+-After that, you will need to fork the frontend of this project at https://github.com/liamH47/tendr-react-frontend and follow the instructions there
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
